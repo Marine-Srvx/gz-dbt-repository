@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: gz_raw_data
+    description : data from greenweez (french brand eco-responsible)
+    tables :
+     - name : raw_gz_sales
+       description : sales by day
+     - name : raw_gz_product
+       description : purchase price of products
+     - name : raw_gz_ship
+       description : shipping costs
